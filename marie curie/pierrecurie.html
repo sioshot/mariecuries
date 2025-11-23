@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pierre Curie — Vita e Scoperte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0b1220; --card:#0f1724; --accent:#9be7b2; --muted:#9aa6b2;
+  --glass:rgba(255,255,255,0.04); --glass-2:rgba(255,255,255,0.02);
+  --radius:14px; font-family:'Montserrat',sans-serif;
+}
+body {margin:0; padding:32px; background: radial-gradient(circle at 20% 20%, rgba(155,231,178,0.07), transparent), linear-gradient(180deg,#071026,#0b1220 60%); color:#e6f0ef;}
+.container {max-width:1100px; margin:0 auto;}
+header {display:flex; align-items:center; gap:18px; margin-bottom:28px;}
+.logo {width:84px; height:84px; background: linear-gradient(135deg,var(--accent),#69c9a3); border-radius:12px; display:flex; align-items:center; justify-content:center; font-family:'Merriweather', serif; font-weight:700; color:#04201a;}
+.card {background: linear-gradient(180deg,var(--glass),var(--glass-2)); padding:20px; border-radius:var(--radius); margin-top:20px;}
+.portrait img {width:100%; border-radius:10px; margin-top:10px;}
+.grid-3 {display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-top:16px;}
+.event {display:flex; gap:12px; padding:16px; background: rgba(255,255,255,0.04); border-radius:12px; margin-top:14px;}
+footer {text-align:center; color:var(--muted); margin-top:40px; font-size:14px;}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo">PC</div>
+<div>
+<h1>Pierre Curie — Vita e Contributi</h1>
+<p class="lead">Fisico francese, pioniere nello studio del magnetismo, piezoelettricità e radioattività, collaboratore di Marie Curie.</p>
+</div>
+</header>
+
+<section class="card">
+<h2>Biografia</h2>
+<p>Pierre Curie nacque il 15 maggio 1859 a Parigi. Studiò fisica e chimica, e condusse importanti ricerche sulla magnetizzazione dei materiali, la piezoelettricità insieme al fratello Jacques e sulla radioattività insieme a Marie Curie, sua moglie. La sua carriera fu breve ma rivoluzionaria, terminando tragicamente con la sua morte in un incidente stradale nel 1906.</p>
+</section>
+
+<section class="card">
+<h2>Contributi scientifici</h2>
+<ul>
+<li><strong>Magnetismo</strong> — scoperta della legge di Curie sulla magnetizzazione dei materiali.</li>
+<li><strong>Piezoelettricità</strong> — scoperta con Jacques Curie, base di sensori moderni.</li>
+<li><strong>Radioattività</strong> — ricerca fondamentale insieme a Marie Curie.</li>
+<li><strong>Premio Nobel (1903)</strong> — condiviso con Marie Curie e Henri Becquerel per la radioattività.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Timeline</h2>
+<div class="event"><div><strong>1859</strong></div><div>Nascita a Parigi.</div></div>
+<div class="event"><div><strong>1880</strong></div><div>Scoperta della piezoelettricità insieme al fratello Jacques.</div></div>
+<div class="event"><div><strong>1895</strong></div><div>Sposa Marie Skłodowska.</div></div>
+<div class="event"><div><strong>1898</strong></div><div>Scoperta del Polonio e del Radio con Marie Curie.</div></div>
+<div class="event"><div><strong>1903</strong></div><div>Premio Nobel per la Fisica.</div></div>
+<div class="event"><div><strong>1906</strong></div><div>Muore in un incidente stradale a Parigi.</div></div>
+</section>
+
+<section class="card">
+<h2>Ritratti e immagini storiche</h2>
+<div class="portrait">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Pierre_Curie_by_Dujardin_c1906.jpg" alt="Ritratto Pierre Curie">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Curie%2C_Pierre_%26_Marie.jpg" alt="Pierre e Marie Curie">
+</div>
+</section>
+
+<footer>© 2025 — Pagina completa dedicata a Pierre Curie</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Marie Curie — Vita e Scoperte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0b1220; --card:#0f1724; --accent:#9be7b2; --muted:#9aa6b2;
+  --glass:rgba(255,255,255,0.04); --glass-2:rgba(255,255,255,0.02);
+  --radius:14px; font-family:'Montserrat',sans-serif;
+}
+body {margin:0; padding:32px; background: radial-gradient(circle at 20% 20%, rgba(155,231,178,0.07), transparent), linear-gradient(180deg,#071026,#0b1220 60%); color:#e6f0ef;}
+.container {max-width:1100px; margin:0 auto;}
+header {display:flex; align-items:center; gap:18px; margin-bottom:28px;}
+.logo {width:84px; height:84px; background: linear-gradient(135deg,var(--accent),#69c9a3); border-radius:12px; display:flex; align-items:center; justify-content:center; font-family:'Merriweather', serif; font-weight:700; color:#04201a;}
+.card {background: linear-gradient(180deg,var(--glass),var(--glass-2)); padding:20px; border-radius:var(--radius); margin-top:20px;}
+.portrait img {width:100%; border-radius:10px; margin-top:10px;}
+.grid-3 {display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-top:16px;}
+.event {display:flex; gap:12px; padding:16px; background: rgba(255,255,255,0.04); border-radius:12px; margin-top:14px;}
+footer {text-align:center; color:var(--muted); margin-top:40px; font-size:14px;}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo">MC</div>
+<div>
+<h1>Marie Curie — Vita e Scoperte</h1>
+<p class="lead">Fisica e chimica pioniera nello studio della radioattività, prima donna a vincere un Nobel e prima persona a vincerne due.</p>
+</div>
+</header>
+
+<section class="card">
+<h2>Biografia</h2>
+<p>Marie Skłodowska Curie nacque il 7 novembre 1867 a Varsavia, in Polonia. Studiò in scuole per ragazze e poi, desiderosa di continuare gli studi scientifici, si trasferì a Parigi per studiare fisica e matematica alla Sorbona, dove incontrò Pierre Curie. La sua vita fu dedicata alla scienza e alla ricerca sulla radioattività, nonostante le difficoltà di essere donna in un ambiente scientifico dominato dagli uomini.</p>
+</section>
+
+<section class="card">
+<h2>Scoperte e contributi</h2>
+<ul>
+<li><strong>Polonio (1898)</strong> — chiamato in onore della Polonia, sua terra natale.</li>
+<li><strong>Radio (1898–1910)</strong> — sviluppo di tecniche per isolare e misurare elementi radioattivi.</li>
+<li><strong>Radioattività come disciplina</strong> — mise a punto misure quantitative della radioattività.</li>
+<li><strong>Applicazioni mediche</strong> — promosse l'uso della radiografia durante la Prima guerra mondiale.</li>
+<li><strong>Premi Nobel</strong> — Fisica (1903, insieme a Pierre Curie e Henri Becquerel), Chimica (1911) per le scoperte su radio e polonio.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Timeline</h2>
+<div class="event"><div><strong>1867</strong></div><div>Nascita a Varsavia, Polonia.</div></div>
+<div class="event"><div><strong>1891</strong></div><div>Trasferimento a Parigi per studi alla Sorbona.</div></div>
+<div class="event"><div><strong>1895</strong></div><div>Sposa Pierre Curie.</div></div>
+<div class="event"><div><strong>1898</strong></div><div>Scoperta del Polonio e del Radio.</div></div>
+<div class="event"><div><strong>1903</strong></div><div>Premio Nobel per la Fisica.</div></div>
+<div class="event"><div><strong>1911</strong></div><div>Premio Nobel per la Chimica.</div></div>
+<div class="event"><div><strong>1934</strong></div><div>Muore il 4 luglio, a causa di esposizione prolungata alle radiazioni.</div></div>
+</section>
+
+<section class="card">
+<h2>Citazioni</h2>
+<p>«Niente nella vita va temuto, dev'essere solo compreso.»</p>
+<p>«La scienza non ha patria, perché la conoscenza appartiene all'umanità.»</p>
+</section>
+
+<section class="card">
+<h2>Galleria</h2>
+<div class="portrait">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Marie_Curie_c1920.jpg" alt="Ritratto Marie Curie 1920">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Curie%2C_Pierre_%26_Marie.jpg" alt="Marie e Pierre Curie">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Curie_%281911%29.jpg" alt="Laboratorio di ricerca anni 1910">
+</div>
+</section>
+
+<footer>© 2025 — Pagina completa dedicata a Marie Curie</footer>
+</div>
+</body>
+</html>
